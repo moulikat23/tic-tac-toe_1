@@ -1,0 +1,18 @@
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
