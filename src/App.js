@@ -1,11 +1,12 @@
-import Board from "./Game";
-import "./App.css";
+import React from "react";
+import UserFetcher from "./UserFetcher";
 
-export default function App() {
+function App() {
   return (
-    <div className="game">
-      <h1>Tic Tac Toe</h1>
-      <Board />
+    <div>
+      <UserFetcher />
     </div>
   );
 }
+
+export default App;
